@@ -14,11 +14,6 @@ const Footer: React.FC = () => {
               Dra. Sofia Mendes
             </span>
           </div>
-          
-          <div className="flex gap-8 text-sm">
-            <a href="#" className="hover:text-primary-400 transition-colors">Termos de Uso</a>
-            <a href="#" className="hover:text-primary-400 transition-colors">Política de Privacidade</a>
-          </div>
 
           <div className="text-sm">
             &copy; {new Date().getFullYear()} NutriLife. Todos os direitos reservados.
