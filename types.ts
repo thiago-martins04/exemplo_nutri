@@ -17,8 +17,3 @@ export enum LoadingState {
   SUCCESS = 'SUCCESS',
   ERROR = 'ERROR'
 }
-
-export interface AIResponse {
-  suggestion: string;
-  calories?: string;
-}
